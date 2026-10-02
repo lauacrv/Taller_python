@@ -2,7 +2,7 @@
 # Sin manejo de errores, ingresar "hola" en lugar de un número
 # provocaría un ValueError y el programa se detendría.
 
-try:
+"""try:
     numero = int(input("Ingrese un número entero: "))
     print(f"El número ingresado es: {numero}")
 except ValueError:
@@ -66,6 +66,6 @@ try:
     promedio = calcular_promedio(notas)
     print(f"Promedio: {round(promedio, 2)}")
 except ValueError as e:
-    print(f"Error: {e}")
+    print(f"Error: {e}")"""
 
 
